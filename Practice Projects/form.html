@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h3>Application Form</h3>
+            <p>Note: This form is to be completed at least 21 days prior to date</p>
+        </header>
+        <div class="info">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div class="box">
+                    <label for="">Name:</label><input type="text" placeholder="Enter your Name">
+                </div> 
+                <div class="box">
+                    <label for="">Address:</label><input type="text" placeholder="Enter your Address">
+                </div>
+                <div class="box">
+                    <label for="">Email:</label><input type="text" placeholder="Enter your Email">
+                </div>
+                <div class="box">
+                    <label for="">Grade:</label><input  id="grade"type="number" min="1" max="9"placeholder="Enter your Grade">
+                </div>
+                <div class="box"><label for="">Phone:</label><input type="text" placeholder="Enter your Phone"></div> 
+                    <p>Gender</p>
+                    <div class="radio"><input type="radio"><label for="Male">Male</label></div>
+                    <div class="radio"><input type="radio"><label for="Male">Female</label></div>
+                    <div class="radio"><input type="radio"><label for="Male">Other</label></div>
+                    
+                    <div class="date">
+                        <label for="">Date</label> <input type="date">
+                    </div>
+                </fieldset> 
+            </div>
+            <div class="choose">
+            <fieldset>
+                <p>Check all that you apply </p>
+                <div class="checkbox">
+                    <input type="checkbox"> <label for="">I want to learn Javascript</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox"> <label for="">I want to learn React</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox"> <label for="">Ihave a degree in engineering</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox"> <label for="">I work full-time</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox"> <label for="">I am motivated to find job</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox"> <label for="">I live in USA</label>
+                </div>
+            </fieldset>
+            </div>
+                <div class="education">
+                    <fieldset>
+                        <label for="">Education level</label> 
+                        <select name="" id="">
+                            <option value="">High School</option>
+                            <option value="">High School</option>
+                            <option value="">High School</option>
+                        </select>
+                    </fieldset>
+                </div>   
+            
+            <div class="essay">
+                <fieldset>
+                <legend>Essay Section</legend>
+    <textarea placeholder="Your essay here...." name="" id="" cols="30" rows="10"></textarea> 
+                <!-- <input type="text"  placeholder="Your essay here...."> -->
+            </fieldset>
+            </div>
+            <div class="btn">
+                <input type="submit" value=" Send Your Application">
+            </div>
+    </div>
+    
+</body>
+</html>

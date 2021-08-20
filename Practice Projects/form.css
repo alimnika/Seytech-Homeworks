@@ -1,0 +1,198 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/622/344/non_2x/beautiful-background-of-lines-with-gradients-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+p{
+   
+    padding: 20px;
+    font-size: 20px;
+}
+h2{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+.container{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(155, 126, 88, 0.3);
+    margin: auto;
+}
+.info{
+    width: 90%;
+    margin: auto;
+}
+.box{
+    margin: 10px;
+}
+.box label{
+    width: 10%;
+    display: inline-block;
+}
+#grade{
+    width: 158px;
+}
+.gender{
+    width: 90%;
+    margin: auto;
+}
+.gender .radio{
+    margin: 20px;
+}
+.gender .date{
+    margin: 20px;
+    padding: 10px;
+}
+.choose{
+    width: 90%;
+    margin: auto;
+}
+.checkbox{
+    font-size: 20px;
+    padding: 8px;
+}
+
+.education{
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    margin-left: 0;
+}
+.education label{
+    padding: 5px;
+}
+.education select{
+    border: 2px solid blue;
+    padding: 5px;
+}
+.message{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+::placeholder{
+    color: black;
+}
+.btn{
+   width: 90%;
+    margin: auto;
+}
+.btn button{
+    padding: 10px;
+    width: 100px;
+} */
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    border: 2px solid rgb(73, 73, 73);
+}
+header{
+    width: 90%;
+    margin: auto;
+}
+header p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: Arial;  
+}
+header h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: lighter;
+}
+.info{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 18px;
+}
+.info .box{
+    padding: 10px;
+}
+.info .radio{
+    display: block;
+}
+.info p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Arial;  
+}
+.date{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.choose{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    
+}
+.choose p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Arial;
+}
+.choose .checkbox{
+    padding: 8px;
+    font-family: Arial;
+}
+.education{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;   
+    height: 15%;
+}
+.education fieldset{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.education select{
+    padding: 5px;
+    font-family: Arial;
+}
+.essay{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: Arial;
+}
+.btn{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px 20px;
+    padding: 10px;
+
+}
+.btn input{
+    background-color: rgb(224, 34, 34);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+}

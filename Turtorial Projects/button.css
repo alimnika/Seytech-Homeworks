@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+    margin: 0;
+}
+/* Div content */
+.content{
+    margin-left: 40px;
+    /* border: 2px solid white; */
+}
+button{
+    border: 15px solid darkgreen;
+    border-radius: 10px;
+    width: 25%;
+    height: 170px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+
+}
+#btn4{
+    display: block;
+    width: 80%;
+    text-align: right;
+    color: blue;
+    font-size: 28px;
+    
+}

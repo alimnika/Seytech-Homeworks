@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(110, 221, 248);
+    margin: 0;
+    padding: 0;
+}
+.name{
+    background-color: rgb(231, 156, 63);
+    height: 300px;
+}
+.name img{
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 40%;
+    width: 175px;
+}
+.name h1{
+    color: white;
+    font-size: 55px;
+    margin-left: 50px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu li{
+    background-color: rgb(230, 160, 75);
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+.menu li:hover{
+    background-color: rgb(30, 77, 78);
+}
+.goals ol{
+    background-color: rgba(88, 88, 88, 0.527);
+    margin-left: 20px;
+}
+.goals ol li{
+    /* background-color: grey; */
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(247, 128, 128);
+    font-size: 20px;
+    padding: 10px;
+}
+.websites table{
+    margin-left: 20px;
+    width: 1200px;
+}
+.websites table th{
+    background-color: rgb(0, 195, 255);
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    
+}
+.websites table td{
+    padding: 15px;
+    font-size: 20px;
+    /* margin-left: 10px; */
+}
+.websites td a{
+    background-color: darkslategrey;
+    color: orange;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.websites .grey td{
+    background-color: lightgrey;
+    padding: 15px;
+}
+.footer{
+    margin: 10px 20px 10px;
+    /* margin-left: 20px;
+    margin-bottom: 10px; */
+    border: 10px solid orange;
+    background-color: rgb(22, 97, 87);
+}
+.footer p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+

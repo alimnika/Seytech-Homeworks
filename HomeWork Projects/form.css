@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+}
+.content{
+    margin: 20px auto;
+    width: 800px;
+    height: 700px;
+    /* border: 2px solid rebeccapurple; */
+    background-color: rgb(211, 211, 211);
+}
+.content h3{
+    text-align: center;
+    font-size: 28px;
+}
+.content label{
+    text-align: center;
+    /* margin-left: 250px; */
+}
+/* .content input{
+    margin-left: 80px;
+} */
+.titles{
+    margin-left: 290px;
+    font-size: 18px;
+}
+form{
+    padding: 10px;
+}
+.name{
+    position: relative;
+    padding: 10px;
+    font-size: 14px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
+.content .scale{
+    margin-left: 22px;
+    font-size: 18px;
+
+}
+.content .home{
+    margin-left: 200px;
+    font-size: 18px;
+}
+select{
+    margin: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.opt{
+    padding: 10px;
+    margin: 5px;
+}
+.times{
+    /* border: 2px solid red; */
+    margin-left: 90px;
+    font-size: 18px;
+}
+.round{
+    margin-left: 345px;
+}
+#roll{
+    margin-left: 8px;
+}
+
+.emotions{
+    margin-left: 79px;
+    font-size: 18px;
+}
+span{
+    margin-left: 202px;
+}
+.box{
+    margin-left: 345px;
+    font-size: 18px;
+}
+.exper{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.btn{
+    padding: 30px;
+    height: 35px;
+    /* border: 2px solid  blue; */
+    text-align: center;
+    
+}
+button{
+    padding: 10px;
+    width:  130px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(59, 143, 168);
+    border: none;
+}
+.name1{
+    position: relative;
+    padding: 10px;
+    font-size: 14px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    margin-top: 15px;
+    transition: all 1s;
+   
+}

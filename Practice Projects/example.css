@@ -1,0 +1,26 @@
+body{
+    background-color: skyblue;
+    /* margin: auto; */
+}
+
+table, tr,th,td{
+    border: 1px solid gray;
+    margin: auto;
+    padding: 10px;
+    width: 50px;
+    margin-top: 300px;
+    font-size: 20px;
+    
+}
+tr:nth-child(){
+    background-color: white; 
+}
+tr:nth-child(even){
+    background-color: yellowgreen;
+}
+/* .white{
+   background-color: white; 
+}
+.green{
+    background-color: yellowgreen;
+} */

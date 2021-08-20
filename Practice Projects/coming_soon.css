@@ -1,0 +1,80 @@
+body{
+    background-image: url(https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+.center{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    /* border: 2px solid pink; */
+    justify-content: center; 
+}
+.center h1{
+    color: white;
+    font-size: 70px;
+    /* text-shadow: 2px 5px gray; */
+    font-family: sans-serif;
+}
+.center h5{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    
+}
+hr{
+    width: 50%;
+}
+.left{
+    /* border: 2px solid red; */
+    /* display: flex; */
+    float: left;
+    color: white;
+    
+    
+}
+.left h2{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+.right{
+    float: right;
+    /* border: 2px solid blue; */
+    margin-right: 2px;
+    color: white;
+   
+}
+.right h2{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+.left-bottom{
+    float: left;
+    /* border: 2px solid green; */
+    position: absolute;
+    margin-left: 0;
+    top: 800px;
+    color: white;
+   
+}
+.left-bottom h2{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.right-bottom{
+    position: absolute;
+    float: right;
+    /* border: 2px solid yellow; */
+    top: 800px;
+    margin-left: 87%;
+    color: white;
+
+}
+.right-bottom h2{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}

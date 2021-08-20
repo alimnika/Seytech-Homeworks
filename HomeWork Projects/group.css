@@ -1,0 +1,33 @@
+body{
+    background-color: skyblue;
+}
+
+ul li{
+    background-color: orange;
+    border: solid 1px grey;
+    width: 200px;
+}
+img{
+    width: 150px;
+}
+h1{
+    color: rgb(172, 122, 31);
+}
+p{
+    font-size: 20px;
+}
+span{
+    background-color: orange;
+    border: solid 1px;
+    color: green;
+}
+ol{
+    background-color: grey;
+}
+footer{
+    background-color: rgb(24, 82, 24);
+    border: 2px solid orange;
+}
+footer p{
+    color: white;
+}

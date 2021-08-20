@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+  }
+  header{
+    background-color:tomato;
+    height:160px;
+  }
+  h1{
+    color:white;
+    padding-top:80px;
+    padding-left:40px;
+    
+  }
+  h3{
+    color:white;
+    padding-left:40px;
+    margin:0;
+  }
+  nav{
+      width: 20%;
+      position: relative;
+      /* border: 2px solid blue; */
+      float: left;
+      
+  }
+  .menu{
+    list-style: none;
+    text-align: center;
+    padding:0;
+    display: block;
+    
+  }
+  li{
+    background-color: tomato;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 5px 0;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .menu li:hover{
+    background-color: white;
+    border: 1px solid tomato;
+  }
+  .menu li:hover a{
+    color: tomato;
+  }
+  article{
+      /* border: 2px solid red; */
+      position: absolute;
+      width: 50%;
+      margin-left: 20%;
+      
+  }
+  aside{
+    background-color: #e68573;
+    position: absolute;
+    width: 30%;
+    margin-left: 70%;
+    
+    
+  }
+  footer{
+    /* border: 1px solid gray; */
+    border-radius: 7px;
+    background-color: lightgray;
+    color: tomato;
+    text-align: center;
+    position: relative;
+    margin-top: 25%;
+    font-size: 18px;
+  }
+  
+  span{
+    color: tomato;
+    font-weight: bold;
+  }
+  .large{
+    font-size: xx-large;
+    font-weight: bold;
+  }
